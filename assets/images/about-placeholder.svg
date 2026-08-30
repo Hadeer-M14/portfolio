@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560" role="img" aria-labelledby="title desc">
+  <title id="title">About photo placeholder</title>
+  <desc id="desc">Replace this file with a secondary portrait or workspace photo.</desc>
+  <rect width="480" height="560" fill="#FFF5F5"/>
+  <rect x="24" y="24" width="432" height="512" fill="none" stroke="#E2B4BD" stroke-width="2" stroke-dasharray="10 10" rx="8"/>
+  <rect x="80" y="120" width="320" height="220" fill="#F7D6D0" rx="12"/>
+  <circle cx="240" cy="230" r="40" fill="#E2B4BD"/>
+  <rect x="140" y="370" width="200" height="12" fill="#E2B4BD" rx="6"/>
+  <rect x="170" y="398" width="140" height="10" fill="#F7D6D0" rx="5"/>
+  <text x="240" y="500" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#4A4A4A">Replace with about photo</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Project image placeholder</title>
+  <desc id="desc">Replace this file with a project screenshot or cover image.</desc>
+  <rect width="640" height="360" fill="#F7D6D0"/>
+  <rect x="20" y="20" width="600" height="320" fill="none" stroke="#E2B4BD" stroke-width="2" stroke-dasharray="8 8" rx="8"/>
+  <rect x="220" y="130" width="200" height="80" fill="#E2B4BD" rx="8"/>
+  <text x="320" y="178" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#4A4A4A">Project image</text>
+</svg>

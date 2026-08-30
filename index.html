@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio of Hadeer Mahmoud, Junior SOC Analyst specializing in cybersecurity, digital forensics, threat detection, and incident response."
+    />
+    <title>Hadeer Mahmoud | Junior SOC Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- Decorative background: CSS orbs + canvas particles. Safe to remove. -->
+    <div class="bg-orbs" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <canvas id="bg-canvas" class="bg-canvas" aria-hidden="true"></canvas>
+
+    <div class="site">
+      <header class="site-header">
+        <div class="wrap header-inner">
+          <a class="logo" href="#home" aria-label="Hadeer Mahmoud — home">
+            <span class="logo-mark" aria-hidden="true">HM</span>
+            <span class="logo-text">Hadeer Mahmoud</span>
+          </a>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="site-nav"
+            aria-label="Open menu"
+          >
+            <span aria-hidden="true"></span>
+          </button>
+
+          <nav id="site-nav" class="site-nav" aria-label="Primary">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main">
+        <!-- 1. Home ------------------------------------------------ -->
+        <section id="home" class="hero" aria-labelledby="hero-heading">
+          <div class="wrap hero-grid">
+            <div class="hero-copy reveal">
+              <p class="eyebrow">Portfolio</p>
+              <h1 id="hero-heading">Hello I'm <br>
+                Hadeer Mahmoud</h1>
+              <p class="role">Junior SOC analyst</p>
+              <p class="bio">
+                I am building a career in security operations with a focus on threat detection,
+                incident response, and digital forensics. My work combines academic training in
+                cybersecurity with hands-on SOC practice: reviewing alerts, understanding network
+                behavior, and documenting findings clearly so teams can act with confidence.
+              </p>
+              <div class="btn-row">
+                <a class="btn btn-primary" href="#projects">View Projects</a>
+                <!-- Replace href with your CV file, e.g. assets/cv/Hadeer-Mahmoud-CV.pdf -->
+                <a class="btn btn-ghost" href="assets/cv/Hadeer.pdf" download>Download CV</a>
+              </div>
+            </div>
+
+            <div class="hero-media reveal">
+              <figure class="media-frame">
+                <!-- Replace src with your portrait, e.g. assets/images/profile.jpg -->
+                <img
+                  src="assets/images/me.jpeg"
+                  alt="Portrait placeholder for Hadeer Mahmoud"
+                  width="480"
+                  height="600"
+                />
+                <figcaption class="media-caption">Profile image</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. About Me ------------------------------------------- -->
+        <section id="about" class="section" aria-labelledby="about-heading">
+          <div class="wrap">
+            <div class="about-grid">
+              <div class="reveal">
+                <figure class="media-frame">
+                  <!-- Replace src with a second photo, e.g. assets/images/about.jpg -->
+                  <img
+                    src="assets/images/me.jpeg"
+                    alt="About section photo placeholder for Hadeer Mahmoud"
+                    width="480"
+                    height="560"
+                  />
+                </figure>
+              </div>
+
+              <div class="about-copy reveal">
+                <p class="eyebrow">About Me</p>
+                <h2 id="about-heading">Hadeer Mahmoud — junior analyst focused on SOC operations</h2>
+                <p>
+                  I study Cybersecurity and Digital Forensics at the Faculty of Computers and
+                  Artificial Intelligence, Benha University, and apply that foundation in SOC-oriented
+                  training. I care about careful observation: how traffic looks when it is healthy,
+                  how logs tell a story, and how a first responder should triage without rushing.
+                </p>
+                <p>
+                  My focus areas are security monitoring, network fundamentals, Linux and Windows
+                  administration, and the discipline of incident handling — from detection through
+                  clear documentation.
+                </p>
+              </div>
+            </div>
+
+            <dl class="fact-grid">
+              <div class="card fact-card reveal">
+                <dt>Role</dt>
+                <dd>Junior SOC Analyst</dd>
+              </div>
+              <div class="card fact-card reveal">
+                <dt>Field</dt>
+                <dd>Cybersecurity &amp; Digital Forensics</dd>
+              </div>
+              <div class="card fact-card reveal">
+                <dt>Interests</dt>
+                <dd>Threat Detection &amp; Incident Response</dd>
+              </div>
+              <div class="card fact-card reveal">
+                <dt>Focus</dt>
+                <dd>SOC Operations &amp; Network Security</dd>
+              </div>
+            </dl>
+          </div>
+        </section>
+
+        <!-- 3. Education ------------------------------------------ -->
+        <section id="education" class="section" aria-labelledby="education-heading">
+          <div class="wrap">
+            <header class="section-head reveal">
+              <p class="eyebrow">Education</p>
+              <h2 id="education-heading">Academic foundation</h2>
+              <p class="lead">Formal study in cybersecurity and digital forensics, with a strong academic record.</p>
+            </header>
+
+            <article class="card edu-card reveal">
+              <div class="edu-meta">
+                <span class="badge">Bachelor's Degree | Grade: Excellent (09/2023 – 06/2027)</span>
+              </div>
+              <div>
+                <h3>Faculty of Computers and Artificial Intelligence – Benha University</h3>
+                <p class="edu-focus">Department of Cybersecurity &amp; Digital Forensics</p>
+                <p>
+                  The program develops a practical and theoretical base in cyber defense, digital
+                  evidence, and secure computing. Coursework covers network security, operating
+                  systems, forensics methodology, and incident-oriented analysis — preparing graduates
+                  to work in SOC environments, investigations, and defensive operations.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- 4. Skills --------------------------------------------- -->
+        <section id="skills" class="section" aria-labelledby="skills-heading">
+          <div class="wrap">
+            <header class="section-head reveal">
+              <p class="eyebrow">Skills</p>
+              <h2 id="skills-heading">Capabilities</h2>
+              <p class="lead">Technical groupings that support monitoring, investigation, and day-to-day SOC work.</p>
+            </header>
+
+            <div class="grid-5">
+              <article class="card skill-card reveal">
+                <h3>Networking</h3>
+                <ul>
+                  <li>CCNA</li>
+                  <li>HCIA</li>
+                  <li>Routing &amp; Switching</li>
+                  <li>Network Security</li>
+                  <li>Network Fundamentals</li>
+                </ul>
+              </article>
+              <article class="card skill-card reveal">
+                <h3>Cybersecurity &amp; SOC</h3>
+                <ul>
+                  <li>ISC2 CC</li>
+                  <li>SOC Fundamentals</li>
+                  <li>SOC Level 1</li>
+                  <li>Digital Forensics</li>
+                  <li>Incident Response</li>
+                </ul>
+              </article>
+              <article class="card skill-card reveal">
+                <h3>Systems</h3>
+                <ul>
+                  <li>Red Hat Linux</li>
+                  <li>Linux Administration</li>
+                  <li>Windows OS</li>
+                  <li>VMware</li>
+                </ul>
+              </article>
+              <article class="card skill-card reveal">
+                <h3>Tools &amp; Platforms</h3>
+                <ul>
+                  <li>TryHackMe</li>
+                  <li>Wireshark</li>
+                  <li>Cisco Packet Tracer</li>
+                </ul>
+              </article>
+              <article class="card skill-card reveal">
+                <h3>Soft Skills</h3>
+                <ul>
+                  <li>Problem Solving</li>
+                  <li>Communication</li>
+                  <li>Team Work</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- 5. Experience ----------------------------------------- -->
+        <section id="experience" class="section" aria-labelledby="experience-heading">
+          <div class="wrap">
+            <header class="section-head reveal">
+              <p class="eyebrow">Experience</p>
+              <h2 id="experience-heading">Training</h2>
+              <p class="lead">Structured programs that translated classroom knowledge into SOC-ready practice.</p>
+            </header>
+
+            <div class="grid-2">
+              <article class="card exp-card reveal">
+                <span class="card-index">Training 01</span>
+                <h3>Cybersecurity Training</h3>
+                <p class="org">ITI</p>
+                <ul>
+                  <li>Completed hands-on labs covering security fundamentals, common attack patterns, and defensive controls.</li>
+                  <li>Practiced structured analysis of security scenarios with an emphasis on clear reporting and teamwork.</li>
+                </ul>
+              </article>
+              <article class="card exp-card reveal">
+                <span class="card-index">Training 02</span>
+                <h3>SOC / Security Operations Training</h3>
+                <p class="org">NTI</p>
+                <ul>
+                  <li>Worked through SOC workflows including alert review, log-oriented investigation, and escalation thinking.</li>
+                  <li>Applied monitoring concepts in practical exercises focused on detection, triage, and documentation.</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. Services ------------------------------------------- -->
+        <section id="services" class="section" aria-labelledby="services-heading">
+          <div class="wrap">
+            <header class="section-head reveal">
+              <p class="eyebrow">Services</p>
+              <h2 id="services-heading">How I can contribute</h2>
+              <p class="lead">Entry-level SOC and defensive support aligned with monitoring, networks, and investigation.</p>
+            </header>
+
+            <div class="grid-6">
+              <article class="card reveal">
+                
+                <h3>Security Monitoring &amp; Log Analysis</h3>
+                <p>
+                  Reviewing alerts and log sources to distinguish noise from signal, correlate events,
+                  and surface activity that deserves a closer look.
+                </p>
+              </article>
+              <article class="card reveal">
+                
+                <h3>Digital Forensics &amp; Investigation</h3>
+                <p>
+                  Applying forensic thinking to preserve context, examine artifacts carefully, and
+                  support investigations with orderly notes and evidence-aware handling.
+                </p>
+              </article>
+              <article class="card reveal">
+                
+                <h3>Incident Handling &amp; Triage</h3>
+                <p>
+                  Prioritizing incidents by impact and confidence, following first-response steps, and
+                  communicating status so the next person can continue without guesswork.
+                </p>
+              </article>
+              <article class="card reveal">
+               
+                <h3>Network Configuration &amp; Security</h3>
+                <p>
+                  Using routing, switching, and network-security fundamentals to understand traffic
+                  paths, segmentation ideas, and where controls should sit.
+                </p>
+              </article>
+              <article class="card reveal">
+                
+                <h3>Packet &amp; Traffic Analysis</h3>
+                <p>
+                  Inspecting captures in Wireshark to read protocols, spot anomalies, and connect
+                  packet-level detail back to a SOC investigation.
+                </p>
+              </article>
+              <article class="card reveal">
+               
+                <h3>System Administration Basics</h3>
+                <p>
+                  Working with Linux, Windows, and VMware at a practical level: users, services,
+                  permissions, and the hygiene that keeps a lab or endpoint understandable.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. Projects ------------------------------------------- -->
+        <section id="projects" class="section" aria-labelledby="projects-heading">
+          <div class="wrap">
+            <header class="section-head reveal">
+              <p class="eyebrow">Projects</p>
+              <h2 id="projects-heading">Selected work</h2>
+              <p class="lead">Placeholder cards — replace titles, images, and summaries when case studies are ready.</p>
+            </header>
+
+            <div class="grid-3">
+              <article class="card project-card reveal">
+                <!-- Replace src with a project screenshot -->
+                <img
+                  src="assets/images/project-placeholder.svg"
+                  alt="Placeholder image for project one"
+                  width="640"
+                  height="360"
+                />
+                <div class="project-body">
+                  <span class="card-index">Project 01</span>
+                  <h3>Project title</h3>
+                  <p class="placeholder-note">Add a short description, tools used, and a link to GitHub or a write-up.</p>
+                </div>
+              </article>
+              <article class="card project-card reveal">
+                <img
+                  src="assets/images/project-placeholder.svg"
+                  alt="Placeholder image for project two"
+                  width="640"
+                  height="360"
+                />
+                <div class="project-body">
+                  <span class="card-index">Project 02</span>
+                  <h3>Project title</h3>
+                  <p class="placeholder-note">Add a short description, tools used, and a link to GitHub or a write-up.</p>
+                </div>
+              </article>
+              <article class="card project-card reveal">
+                <img
+                  src="assets/images/project-placeholder.svg"
+                  alt="Placeholder image for project three"
+                  width="640"
+                  height="360"
+                />
+                <div class="project-body">
+                  <span class="card-index">Project 03</span>
+                  <h3>Project title</h3>
+                  <p class="placeholder-note">Add a short description, tools used, and a link to GitHub or a write-up.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- 8. Achievements --------------------------------------- -->
+        <section id="achievements" class="section" aria-labelledby="achievements-heading">
+          <div class="wrap">
+            <header class="section-head reveal">
+              <p class="eyebrow">Achievements</p>
+              <h2 id="achievements-heading">Milestones</h2>
+              <p class="lead">Markers of professional preparation, academic performance, and continued practice.</p>
+            </header>
+
+            <div class="grid-4">
+              <article class="card reveal">
+             
+                <h3>Professional Certifications</h3>
+                <p>
+                  Building a verified baseline with ISC2 CC, plus CCNA and HCIA networking credentials
+                  that support SOC-level traffic and infrastructure literacy.
+                </p>
+              </article>
+              <article class="card reveal">
+             
+                <h3>Practical SOC Training</h3>
+                <p>
+                  Completing ITI cybersecurity training and NTI security operations practice, with
+                  labs that emphasize detection, triage, and operational discipline.
+                </p>
+              </article>
+              <article class="card reveal">
+                
+                <h3>Academic Standing</h3>
+                <p>
+                  Maintaining an Excellent grade in a Bachelor’s program in Cybersecurity and Digital
+                  Forensics at Benha University (2023–2027).
+                </p>
+              </article>
+              <article class="card reveal">
+              
+                <h3>Continuous Skill Development</h3>
+                <p>
+                  Extending classroom work through TryHackMe, packet analysis, Linux administration,
+                  and repeat SOC fundamentals until the workflow feels natural.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- 9. Contact -------------------------------------------- -->
+        <section id="contact" class="section" aria-labelledby="contact-heading">
+          <div class="wrap">
+            <header class="section-head reveal">
+              <p class="eyebrow">Contact Me</p>
+              <h2 id="contact-heading">Let’s talk</h2>
+              <p class="lead">Open to SOC internships, junior analyst roles, and collaborative security work.</p>
+            </header>
+
+            <div class="contact-grid">
+              <ul class="card contact-list reveal">
+                <li>
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <rect x="3" y="5" width="18" height="14" rx="2" />
+                      <path d="M4 7l8 6 8-6" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span>Email</span>
+                    <a href="mailto:hadeer.mahmoud.14h@gmail.com">hadeer.mahmoud.14h@gmail.com</a>
+                  </div>
+                </li>
+                <li>
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <path d="M6.5 4.5h3l1.5 4-2 1.2a12 12 0 0 0 5.3 5.3l1.2-2 4 1.5v3A2 2 0 0 1 17.5 19 14.5 14.5 0 0 1 5 6.5a2 2 0 0 1 1.5-2z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span>Phone</span>
+                    <a href="tel:+201093288711">+20 1093288711</a>
+                  </div>
+                </li>
+                <li>
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <path d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11z" />
+                      <circle cx="12" cy="10" r="2.2" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span>Location</span>
+                    <p>Cairo, Egypt</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                      <path d="M6.5 9H4v11h2.5V9zM5.25 4A1.5 1.5 0 1 0 5.26 7 1.5 1.5 0 0 0 5.25 4zM20 20h-2.5v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.07 1.4-2.07 2.85V20H11V9h2.4v1.51h.03c.33-.63 1.15-1.3 2.37-1.3 2.54 0 3.2 1.67 3.2 3.84V20z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span>LinkedIn</span>
+                    <a
+                      href="https://www.linkedin.com/in/hadeer-mahmoud-9284aa34b/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      >linkedin.com/in/hadeer-mahmoud-9284aa34b</a
+                    >
+                  </div>
+                
+              </ul>
+
+              <form id="contact-form" class="card form reveal" novalidate>
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" autocomplete="name" required minlength="2" />
+                  <p class="field-error" data-error-for="name" role="alert"></p>
+                </div>
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" autocomplete="email" required />
+                  <p class="field-error" data-error-for="email" role="alert"></p>
+                </div>
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" required minlength="10"></textarea>
+                  <p class="field-error" data-error-for="message" role="alert"></p>
+                </div>
+                <button class="btn btn-primary" type="submit">Send message</button>
+                <p class="form-status" role="status" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="wrap footer-inner">
+          <p>© <span id="year">2026</span> Hadeer Mahmoud. All rights reserved.</p>
+          <p>Junior SOC Analyst — Cairo, Egypt</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+      document.getElementById("year").textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>
